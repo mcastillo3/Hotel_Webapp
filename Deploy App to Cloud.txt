@@ -1,0 +1,5 @@
+Opting for Microsoft Azure as my cloud service provider, I'd migrate my multithreaded Spring web application to the cloud.
+Initially, I'd establish an Azure Container Registry to house my application's image.
+Following that, I'd generate my image with a suitable version label, such as 'latest,' and transfer it to the registry.
+Subsequently, I'd instantiate an Azure Container Instance, utilizing the image previously uploaded to the Azure Container Registry.
+Lastly, I'd initiate the deployment of the Azure Container Instance to ensure its accessibility and online presence.

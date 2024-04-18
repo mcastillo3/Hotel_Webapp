@@ -9,3 +9,7 @@ Edited the app.component.html to prices in Canadian dollar and Euro, lines 82-84
 Created a new TimeController rest controller that maps a path to the front-end to get pre-loaded times in different time zones.
 Added a presentationTime variable to app.component.ts, a method to get the times from the back-end, and subscribed it to OnInit.
 Edited the app.component.html to display a message and the presentation times in different time zones, lines 28-35.
+Created a docker file and docker image.
+Created a docker container to run the docker image. Took a screenshot of application running.
+Created a txt file to describe how to deploy the app on Azure.
+Added all files to the project.
